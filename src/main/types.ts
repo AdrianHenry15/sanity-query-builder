@@ -25,7 +25,7 @@ export interface SortField{
 
 export interface QueryState {
     type?: string;
-    filters?: FilterCondition;
+    filters?: FilterCondition[];
     projections: ProjectionField[];
     sorts: SortField[];
     limit?: number;
